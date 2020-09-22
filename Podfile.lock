@@ -1,0 +1,129 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AliPlayerSDK_iOS (5.1.5.1):
+    - AliPlayerSDK_iOS/AliPlayerSDK (= 5.1.5.1)
+  - AliPlayerSDK_iOS/AliPlayerSDK (5.1.5.1)
+  - AliyunOSSiOS (2.10.8)
+  - EmptyDataSet-Swift (5.0.0)
+  - ESPullToRefresh (2.9.3)
+  - ESTabBarController-swift (2.8.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JXSegmentedView (1.2.7)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.4.3)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SKPhotoBrowser (6.1.0)
+  - SnapKit (4.2.0)
+  - SwifterSwift (5.1.0):
+    - SwifterSwift/AppKit (= 5.1.0)
+    - SwifterSwift/CoreGraphics (= 5.1.0)
+    - SwifterSwift/CoreLocation (= 5.1.0)
+    - SwifterSwift/Dispatch (= 5.1.0)
+    - SwifterSwift/Foundation (= 5.1.0)
+    - SwifterSwift/MapKit (= 5.1.0)
+    - SwifterSwift/SceneKit (= 5.1.0)
+    - SwifterSwift/SpriteKit (= 5.1.0)
+    - SwifterSwift/SwiftStdlib (= 5.1.0)
+    - SwifterSwift/UIKit (= 5.1.0)
+  - SwifterSwift/AppKit (5.1.0)
+  - SwifterSwift/CoreGraphics (5.1.0)
+  - SwifterSwift/CoreLocation (5.1.0)
+  - SwifterSwift/Dispatch (5.1.0)
+  - SwifterSwift/Foundation (5.1.0)
+  - SwifterSwift/MapKit (5.1.0)
+  - SwifterSwift/SceneKit (5.1.0)
+  - SwifterSwift/SpriteKit (5.1.0)
+  - SwifterSwift/SwiftStdlib (5.1.0)
+  - SwifterSwift/UIKit (5.1.0)
+  - SwiftyFitsize (1.0.1)
+  - SwiftyJSON (5.0.0)
+  - VODUpload (1.6.1):
+    - AliyunOSSiOS
+
+DEPENDENCIES:
+  - Alamofire
+  - AliPlayerSDK_iOS
+  - EmptyDataSet-Swift
+  - ESPullToRefresh
+  - ESTabBarController-swift
+  - IQKeyboardManagerSwift
+  - JXSegmentedView
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SKPhotoBrowser
+  - SnapKit
+  - SwifterSwift
+  - SwiftyFitsize
+  - SwiftyJSON
+  - VODUpload
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AliPlayerSDK_iOS
+    - AliyunOSSiOS
+    - EmptyDataSet-Swift
+    - ESPullToRefresh
+    - ESTabBarController-swift
+    - IQKeyboardManagerSwift
+    - JXSegmentedView
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - Result
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SKPhotoBrowser
+    - SnapKit
+    - SwifterSwift
+    - SwiftyFitsize
+    - SwiftyJSON
+    - VODUpload
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AliPlayerSDK_iOS: ab4d839dfda622b127e88c8cf3eb2ead4b62b139
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
+  SwiftyFitsize: ea06788e0c57b818112e238070bdfa9800aedc21
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  VODUpload: 2c8ac654ceda839dda97a92023a270041dd9901e
+
+PODFILE CHECKSUM: e371d2342ac532094e21d2742ca0bd841535c8c0
+
+COCOAPODS: 1.8.4
