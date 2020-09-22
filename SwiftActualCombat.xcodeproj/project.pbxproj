@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		257DA44D72A467C7E241BC60 /* Pods_SwiftActualCombatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C9203506A705BE5B15EFE4 /* Pods_SwiftActualCombatTests.framework */; };
 		39BDB4F2AB6EB836A27ED213 /* Pods_SwiftActualCombat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486120F1F1211AAF31F41C58 /* Pods_SwiftActualCombat.framework */; };
+		BD0377F7251A2F41002DCE59 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0377F6251A2F41002DCE59 /* PageContentView.swift */; };
 		BD9B175E24F6BB8500CAD446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B175D24F6BB8500CAD446 /* AppDelegate.swift */; };
 		BD9B176024F6BB8500CAD446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B175F24F6BB8500CAD446 /* SceneDelegate.swift */; };
 		BD9B176224F6BB8500CAD446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B176124F6BB8500CAD446 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		5236C5599898F1BDDB16ADCF /* Pods-SwiftActualCombat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftActualCombat.debug.xcconfig"; path = "Target Support Files/Pods-SwiftActualCombat/Pods-SwiftActualCombat.debug.xcconfig"; sourceTree = "<group>"; };
 		62A174C2D08BA1F89AEFD141 /* Pods_SwiftActualCombat_SwiftActualCombatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftActualCombat_SwiftActualCombatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C1EFB4272B6A284E26A3CE /* Pods-SwiftActualCombat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftActualCombat.release.xcconfig"; path = "Target Support Files/Pods-SwiftActualCombat/Pods-SwiftActualCombat.release.xcconfig"; sourceTree = "<group>"; };
+		BD0377F6251A2F41002DCE59 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		BD9B175A24F6BB8500CAD446 /* SwiftActualCombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftActualCombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9B175D24F6BB8500CAD446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD9B175F24F6BB8500CAD446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA2AD852510EEC4005BCACC /* PageTitleView.swift */,
+				BD0377F6251A2F41002DCE59 /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				BDA2AD862510EEC4005BCACC /* PageTitleView.swift in Sources */,
 				BD9B176224F6BB8500CAD446 /* ViewController.swift in Sources */,
 				BDA2AD882510F15B005BCACC /* Common.swift in Sources */,
+				BD0377F7251A2F41002DCE59 /* PageContentView.swift in Sources */,
 				BD9B175E24F6BB8500CAD446 /* AppDelegate.swift in Sources */,
 				BDA2AD532507E25D005BCACC /* UIBarButtonItem-Extension.swift in Sources */,
 				BDA2AD47250683DA005BCACC /* NewsTableViewCell.swift in Sources */,
