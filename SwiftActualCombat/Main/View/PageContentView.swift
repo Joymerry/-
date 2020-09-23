@@ -9,13 +9,19 @@
 import UIKit
 
 class PageContentView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    //MARK: - 定义属性
+    private var childVCs:[UIViewController]?
+    private var parentViewController : UIViewController?
+    
+    
+    init(frame: CGRect,childVCs:[UIViewController],parentViewController:UIViewController) {
+        self.childVCs = childVCs
+        self.parentViewController = parentViewController
+        
+        super.init(frame: frame)
     }
-    */
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

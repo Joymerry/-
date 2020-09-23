@@ -14,9 +14,24 @@ class HomeViewController: UIViewController {
        let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: KTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]
         let titleView = PageTitleView(frame: titleFrame, titles: titles)
-        titleView.backgroundColor = UIColor.purple
         
         return titleView
+    }()
+    private lazy var pageContentView: PageContentView = {
+        // 1.确定内容的frame
+        let contentH = kScreenH - KTitleViewH - kStatusBarH - kNavigationBarH
+        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + KTitleViewH, width: kScreenH, height: contentH)
+        
+        // 2.确定所有的字控制器
+        var childVCs : [UIViewController] = [UIViewController]()
+        for _ in 1..<4 {
+            let vc = UIViewController()
+            vc.view.backgroundColor = UIColor(red: 100/255.0, green: 102/255.0, blue: 200/255.0, alpha: 1.0)
+            childVCs.append(vc)
+        }
+        
+        let pageContentView = PageContentView(frame: contentFrame, childVCs: childVCs, parentViewController: self)
+        return pageContentView
     }()
     
     //MARK: - 系统回调函数
