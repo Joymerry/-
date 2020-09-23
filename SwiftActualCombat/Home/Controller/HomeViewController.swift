@@ -10,27 +10,28 @@ import UIKit
 private let KTitleViewH: CGFloat = 40
 class HomeViewController: UIViewController {
     //MARK: - 懒加载属性
-    private lazy var pageTitleView: PageTitleView = {
-       let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: KTitleViewH)
+    private lazy var pageTitleView: PageTitleView = {[weak self] in
+        let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: KTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]
         let titleView = PageTitleView(frame: titleFrame, titles: titles)
-        
+        titleView.delegate = self
         return titleView
     }()
-    private lazy var pageContentView: PageContentView = {
+    private lazy var pageContentView: PageContentView = {[weak self] in
         // 1.确定内容的frame
         let contentH = kScreenH - KTitleViewH - kStatusBarH - kNavigationBarH
-        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + KTitleViewH, width: kScreenH, height: contentH)
+        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + KTitleViewH, width: kScreenW, height: contentH)
         
         // 2.确定所有的字控制器
         var childVCs : [UIViewController] = [UIViewController]()
-        for _ in 1..<4 {
+        for _ in 1...4 {
             let vc = UIViewController()
-            vc.view.backgroundColor = UIColor(red: 100/255.0, green: 102/255.0, blue: 200/255.0, alpha: 1.0)
+            vc.view.backgroundColor = UIColor(r: CGFloat(arc4random_uniform(255)), g: CGFloat(arc4random_uniform(255)), b: CGFloat(arc4random_uniform(255)))
             childVCs.append(vc)
         }
         
         let pageContentView = PageContentView(frame: contentFrame, childVCs: childVCs, parentViewController: self)
+        pageContentView.delegate = self
         return pageContentView
     }()
     
@@ -50,6 +51,9 @@ extension HomeViewController {
         
         // 2.添加titleView
         view.addSubview(pageTitleView)
+        
+        // 3.添加contentView
+        view.addSubview(pageContentView)
     }
     
     fileprivate func setupNavigationBar() {
@@ -102,3 +106,17 @@ extension HomeViewController {
     }
 }
 // MARK:- 请求数据
+
+//MARK: - PageTitleViewDelegate
+extension HomeViewController : PageTitleViewDelegate {
+    func pageTitleVeiw(titleView: PageTitleView, selectedIndex index: Int) {
+        print(index)
+        pageContentView.setCurrentIndex(currentIndex: index)
+    }
+}
+//MARK: - PageContentViewDelegare
+extension HomeViewController : PageContentViewDelegate {
+    func pageContentView(pageContenView: PageContentView, progress: CGFloat, sourceIdnex: Int, targetIndex: Int) {
+        pageTitleView.setTitleViewProgress(progress: progress, sourceIndex: sourceIdnex, targetIndex: targetIndex)
+    }
+}

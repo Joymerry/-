@@ -9,9 +9,15 @@
 import UIKit
 private let kScrollLineH:CGFloat = 2
 
+protocol PageTitleViewDelegate : class {
+    func pageTitleVeiw(titleView: PageTitleView,selectedIndex index : Int)
+}
+
 class PageTitleView: UIView {
     //MARK: - 定义属性
+    private var currentIndex : Int = 0
     private var titles: [String]
+    weak var delegate : PageTitleViewDelegate?
     //MARK: - 懒加载属性
     private lazy var titleLabels:[UILabel] = [UILabel]()
     private lazy var scrollView: UIScrollView = {
@@ -73,14 +79,14 @@ extension PageTitleView {
             let labelX:CGFloat = labelW*CGFloat(index)
             label.frame = CGRect(x: labelX, y: labelY, width: labelW, height: labelH)
             
-            label.isUserInteractionEnabled = true
-            let tap = UITapGestureRecognizer(target: self, action: #selector(labelClick))
-            label.addGestureRecognizer(tap)
-            
-            
             // 4.将label添加到scrollView中
             scrollView.addSubview(label)
             titleLabels.append(label)
+            
+            // 5.给label添加点击事件
+            label.isUserInteractionEnabled = true
+            let tapGes = UITapGestureRecognizer(target: self, action: #selector(titleLabelClick(tapGes:)))
+            label.addGestureRecognizer(tapGes)
         }
     }
     
@@ -103,8 +109,40 @@ extension PageTitleView {
         scrollView.addSubview(scrollLine)
         scrollLine.frame = CGRect(x: firstLabel.frame.origin.x, y: frame.height - kScrollLineH, width: firstLabel.frame.size.width, height: kScrollLineH)
     }
-    
-    @objc private func labelClick(){
+}
+//MARK: - 点击事件
+extension PageTitleView {
+    @objc private func titleLabelClick(tapGes: UITapGestureRecognizer){
+//        print(tapGes.view?.tag ?? 0)
+        
+        // 1.获取当前label
+        guard let currentLabel = tapGes.view as? UILabel else {
+            return
+        }
+        
+        // 2.获取之前的label
+        let oldLabel = titleLabels[currentIndex]
+        
+        // 3.切换label的字体颜色
+        currentLabel.textColor = UIColor.orange
+        oldLabel.textColor = UIColor.darkGray
+        
+        // 4.保存当前label的下标值
+        currentIndex = currentLabel.tag
+        
+        // 5.滚动条的位置发生改变
+        let scrollLineX = CGFloat(currentLabel.tag) * scrollLine.frame.width
+        UIView.animate(withDuration: 0.15) {
+            self.scrollLine.frame.origin.x = scrollLineX
+        }
+        
+        // 6.通知delegate
+        delegate?.pageTitleVeiw(titleView: self, selectedIndex: currentIndex)
+    }
+}
+//MARK: - 对外暴露的方法
+extension PageTitleView {
+    func setTitleViewProgress(progress:CGFloat,sourceIndex:Int,targetIndex:Int) {
         
     }
 }
