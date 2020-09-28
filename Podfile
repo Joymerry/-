@@ -10,8 +10,8 @@ target 'SwiftActualCombat' do
   pod 'AliPlayerSDK_iOS'
   pod 'Alamofire' #网络请求
   pod 'Moya' #网络请求框架
-  pod 'SnapKit'
-  pod 'Kingfisher' #图片加字啊
+  pod 'SnapKit' #类似于OC中的masonry的自动布局框架
+  pod 'Kingfisher' #图片加载啊
   pod 'IQKeyboardManagerSwift' #键盘管理
   pod 'SwiftyJSON' #json转模型
   
