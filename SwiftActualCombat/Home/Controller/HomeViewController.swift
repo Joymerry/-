@@ -19,12 +19,13 @@ class HomeViewController: UIViewController {
     }()
     private lazy var pageContentView: PageContentView = {[weak self] in
         // 1.确定内容的frame
-        let contentH = kScreenH - KTitleViewH - kStatusBarH - kNavigationBarH
-        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + KTitleViewH, width: kScreenW, height: contentH)
+        let contentH = kScreenH - KTitleViewH - kStatusBarH - kNavigationBarH - (tabBarController?.tabBar.frame.size.height)!
+        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + KTitleViewH , width: kScreenW, height: contentH)
         
         // 2.确定所有的字控制器
         var childVCs : [UIViewController] = [UIViewController]()
-        for _ in 1...4 {
+        childVCs.append(RecommendViewController())
+        for _ in 1...3 {
             let vc = UIViewController()
             vc.view.backgroundColor = UIColor(r: CGFloat(arc4random_uniform(255)), g: CGFloat(arc4random_uniform(255)), b: CGFloat(arc4random_uniform(255)))
             childVCs.append(vc)
