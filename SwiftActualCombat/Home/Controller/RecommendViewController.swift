@@ -18,6 +18,9 @@ private let kPrettyCellID = "kPrettyCellID"
 private let kHeraderViewID = "kHeraderViewID"
 
 class RecommendViewController: UIViewController {
+    //MARK: - 懒加载
+    private lazy var recommendVM : RecommendViewModel = RecommendViewModel()
+    
     private lazy var collectionView: UICollectionView = {[weak self] in
         // 1.创建layout
         let layout = UICollectionViewFlowLayout()
@@ -49,14 +52,40 @@ class RecommendViewController: UIViewController {
         
         // 设置UI界面
         setupUI()
-        
-        
+        // 网络请求
+        initData()
     }
 }
+//MARK: - 设置UI界面内容
 extension RecommendViewController {
     private func setupUI() {
         // 1.将collectView添加到当前view上
         view.addSubview(collectionView)
+    }
+}
+// MARK:- 请求数据
+extension RecommendViewController {
+    func initData() {
+        // get请求
+//        Alamofire.request("http://httpbin.org/get").responseJSON { (response) in
+//            guard let result = response.result.value else {
+//                print("错误：\(response.result.error!)")
+//                return
+//            }
+//            print("数据：\(result)")
+//        }
+        
+        // post请求
+//        Alamofire.request("http://httpbin.org/post", method: .post, parameters: nil, encoding: URLEncoding.default, headers: nil ).responseJSON { (response) in
+//            guard let result = response.result.value else {
+//                print("错误：\(response.result.error!)")
+//                return
+//            }
+//            print("数据：\(result)")
+//        }
+        
+        // 网络请求
+        recommendVM.requestData()
     }
 }
 //MARK: - UICollectionViewDelegate

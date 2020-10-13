@@ -106,9 +106,7 @@ extension HomeViewController {
         navigationItem.rightBarButtonItems = [historyItem,searchItem,qrcodeItem]
     }
 }
-// MARK:- 请求数据
-
-//MARK: - PageTitleViewDelegate
+// MARK: - PageTitleViewDelegate
 extension HomeViewController : PageTitleViewDelegate {
     func pageTitleVeiw(titleView: PageTitleView, selectedIndex index: Int) {
         print(index)
