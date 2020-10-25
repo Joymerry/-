@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="CollectionHeaderView" customModule="SwiftActualCombat" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
@@ -54,7 +54,11 @@
                 <constraint firstItem="bBX-PK-p6A" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="nrv-vJ-459"/>
                 <constraint firstItem="aCd-50-rZJ" firstAttribute="centerY" secondItem="bBX-PK-p6A" secondAttribute="centerY" id="uvR-TN-d0o"/>
             </constraints>
-            <point key="canvasLocation" x="-110" y="84"/>
+            <connections>
+                <outlet property="iconImageView" destination="bBX-PK-p6A" id="C3c-6o-yFi"/>
+                <outlet property="titleLabel" destination="J7K-oX-vhe" id="Gj5-0f-30z"/>
+            </connections>
+            <point key="canvasLocation" x="-155" y="90"/>
         </collectionReusableView>
     </objects>
     <resources>

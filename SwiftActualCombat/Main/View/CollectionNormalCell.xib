@@ -75,6 +75,12 @@
                 <constraint firstItem="KU7-7i-scc" firstAttribute="bottom" secondItem="hni-LD-fUh" secondAttribute="bottom" constant="-5" id="pK6-TT-14Q"/>
             </constraints>
             <size key="customSize" width="218" height="163"/>
+            <connections>
+                <outlet property="iconImageView" destination="hni-LD-fUh" id="NPX-oE-P78"/>
+                <outlet property="nickNameLabel" destination="6Or-VG-Xs8" id="QJy-ah-jGu"/>
+                <outlet property="onlineBtn" destination="KU7-7i-scc" id="JL2-bL-J1E"/>
+                <outlet property="roomNameLabel" destination="sIg-80-4wY" id="tnM-vM-BO2"/>
+            </connections>
             <point key="canvasLocation" x="-55" y="-35"/>
         </collectionViewCell>
     </objects>

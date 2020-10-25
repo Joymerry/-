@@ -8,7 +8,20 @@
 
 import UIKit
 
-class CollectionPrettyCell: UICollectionViewCell {
+class CollectionPrettyCell: CollectionBaseCell {
+    //MARK: 控件属性
+    
+    @IBOutlet weak var cityButton: UIButton!
+    
+    // 定义模型的属性
+    override var anchor: AnchorModel? {
+        didSet {
+            // 1.将属性传递给父类
+            super.anchor = anchor
+            // 2.显示所在城市
+            cityButton.setTitle(anchor?.anchor_city, for: .normal)
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
