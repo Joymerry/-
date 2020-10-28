@@ -11,11 +11,13 @@ import UIKit
 class RecommendViewModel {
     //MARK: - 懒加载属性
     lazy var anchorGroup : [AnchorGroup] = [AnchorGroup]()
+    lazy var cycleModel : [CycleModel] = [CycleModel]()
     fileprivate lazy var bigDataGroup : AnchorGroup = AnchorGroup()
     fileprivate lazy var prettyGroup : AnchorGroup = AnchorGroup()
 }
 //MARK: - 发送网络请求
 extension RecommendViewModel {
+    // 请求推荐的数据
     func requestData(finishCallback:@escaping ()->()) {
         // 1.定义参数
         let parameters = ["limit":"4","offset":"0","time":NSDate.getCurrentTime()]
@@ -88,22 +90,19 @@ extension RecommendViewModel {
         // 5.请求后面部分的游戏数据
         group.enter()
         NetworkTools.requestData(type: .GET, URLString: "http://capi.douyucdn.cn/api/v1/getHotCate", parameters:parameters) { (result) in
-             print("游戏数据：\(result)")
             // 1.将result转成字典类型
             guard let resultDict = result as? [String : NSObject] else {
                 return
             }
-            print("处理数据：\(resultDict)")
+            
             // 2.根据data该key 获取数据
             guard let dataArray = resultDict["data"] as? [[String : NSObject]] else {
                 return
             }
-            print("处理数据2：\(dataArray)")
+            
             // 3.遍历数组，获取字典，并且将字典转成模型对象
             for dict in dataArray {
-                print("处理数据3：\(dict)")
                 let group = AnchorGroup(dict: dict)
-                print("处理数据4：\(group.tag_name)")
                 self.anchorGroup.append(group)
             }
             
@@ -123,6 +122,26 @@ extension RecommendViewModel {
                 print(ahchor.tag_name)
             }
 
+            finishCallback()
+        }
+    }
+    
+    // 请求无限轮播的数据
+    func requestCycleData(finishCallback:@escaping ()->()) {
+        NetworkTools.requestData(type: .GET, URLString: "http://www.douyutv.com/api/v1/slide/6", parameters: ["version" : "2.300"]) { (result) in
+            // 1.获取整体字典数据
+            guard let resultDict = result as? [String:NSObject] else {return}
+            
+            // 2.根据data的key获取数据
+            guard let dataArray = resultDict["data"] as? [[String : NSObject]] else {
+                return
+            }
+            
+            // 3.字典模型转对象
+            for dict in dataArray {
+                self.cycleModel.append(CycleModel(dict: dict))
+            }
+            
             finishCallback()
         }
     }

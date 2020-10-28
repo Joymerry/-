@@ -12,6 +12,11 @@
 		BD0377F7251A2F41002DCE59 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0377F6251A2F41002DCE59 /* PageContentView.swift */; };
 		BD037819251ACF8A002DCE59 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD037818251ACF8A002DCE59 /* UIColor-Extension.swift */; };
 		BD51A3422545D748003BC01A /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD51A3412545D748003BC01A /* CollectionBaseCell.swift */; };
+		BD53294325482D1C00363F05 /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53294225482D1C00363F05 /* RecommendCycleView.swift */; };
+		BD53294825482D7E00363F05 /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD53294725482D7E00363F05 /* RecommendCycleView.xib */; };
+		BD53294D25486DD400363F05 /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53294C25486DD400363F05 /* CycleModel.swift */; };
+		BD532953254873D000363F05 /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD532951254873D000363F05 /* CollectionCycleCell.swift */; };
+		BD532954254873D000363F05 /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD532952254873D000363F05 /* CollectionCycleCell.xib */; };
 		BD5416FB2535FD9200AFBEC1 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5416FA2535FD9200AFBEC1 /* NetworkTools.swift */; };
 		BD5417012536053900AFBEC1 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5417002536053900AFBEC1 /* RecommendViewModel.swift */; };
 		BD9B175E24F6BB8500CAD446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B175D24F6BB8500CAD446 /* AppDelegate.swift */; };
@@ -77,6 +82,11 @@
 		BD037818251ACF8A002DCE59 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		BD51A3382545CD9A003BC01A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BD51A3412545D748003BC01A /* CollectionBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
+		BD53294225482D1C00363F05 /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		BD53294725482D7E00363F05 /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		BD53294C25486DD400363F05 /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		BD532951254873D000363F05 /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		BD532952254873D000363F05 /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
 		BD5416FA2535FD9200AFBEC1 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		BD5417002536053900AFBEC1 /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		BD9B175A24F6BB8500CAD446 /* SwiftActualCombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftActualCombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -322,6 +332,10 @@
 			children = (
 				BDAAE4AA25235B0900553A32 /* CollectionHeaderView.swift */,
 				BDAAE4AB25235B0900553A32 /* CollectionHeaderView.xib */,
+				BD53294225482D1C00363F05 /* RecommendCycleView.swift */,
+				BD53294725482D7E00363F05 /* RecommendCycleView.xib */,
+				BD532951254873D000363F05 /* CollectionCycleCell.swift */,
+				BD532952254873D000363F05 /* CollectionCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +343,7 @@
 		BDA2AD4B250686C0005BCACC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD53294C25486DD400363F05 /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -512,8 +527,10 @@
 			files = (
 				BD9B176D24F6BB8700CAD446 /* LaunchScreen.storyboard in Resources */,
 				BD9B176A24F6BB8700CAD446 /* Assets.xcassets in Resources */,
+				BD532954254873D000363F05 /* CollectionCycleCell.xib in Resources */,
 				BDAAE4B725235EDE00553A32 /* CollectionNormalCell.xib in Resources */,
 				BDA2AD48250683DA005BCACC /* NewsTableViewCell.xib in Resources */,
+				BD53294825482D7E00363F05 /* RecommendCycleView.xib in Resources */,
 				BDAAE4BE252363A900553A32 /* CollectionPrettyCell.xib in Resources */,
 				BD9B176524F6BB8500CAD446 /* Main.storyboard in Resources */,
 				BDAAE4AD25235B0900553A32 /* CollectionHeaderView.xib in Resources */,
@@ -644,12 +661,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD53294325482D1C00363F05 /* RecommendCycleView.swift in Sources */,
 				BDA2AD862510EEC4005BCACC /* PageTitleView.swift in Sources */,
 				BDAAE4BD252363A900553A32 /* CollectionPrettyCell.swift in Sources */,
+				BD53294D25486DD400363F05 /* CycleModel.swift in Sources */,
 				BDFBE5072523233F00C4E2D7 /* RecommendViewController.swift in Sources */,
 				BD037819251ACF8A002DCE59 /* UIColor-Extension.swift in Sources */,
 				BD9B176224F6BB8500CAD446 /* ViewController.swift in Sources */,
 				BDA2AD882510F15B005BCACC /* Common.swift in Sources */,
+				BD532953254873D000363F05 /* CollectionCycleCell.swift in Sources */,
 				BD0377F7251A2F41002DCE59 /* PageContentView.swift in Sources */,
 				BDE964E4253F2E8200B2356B /* AnchorGroup.swift in Sources */,
 				BD9B175E24F6BB8500CAD446 /* AppDelegate.swift in Sources */,
