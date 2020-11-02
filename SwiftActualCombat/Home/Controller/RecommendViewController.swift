@@ -114,7 +114,11 @@ extension RecommendViewController {
         // 网络请求
         // 1.请求推荐数据
         recommendVM.requestData {
+            // 1.展示推荐数据
             self.collectionView.reloadData()
+            
+            // 2.将数据传递给GameView
+            self.gameView.groups = self.recommendVM.anchorGroup
         }
         // 2.请求轮播图数据
         recommendVM.requestCycleData {
