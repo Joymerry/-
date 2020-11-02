@@ -13,6 +13,7 @@ private let kNormalItemH = kItemW * 3 / 4
 private let kPrettyItemH = kItemW * 4 / 3
 private let kHeaderViewH : CGFloat = 50
 private let kCycleViewH : CGFloat = kScreenW * 3/8
+private let kGameViewH : CGFloat = 90
 
 private let kNormalCellID = "kNormalCellID"
 private let kPrettyCellID = "kPrettyCellID"
@@ -49,9 +50,18 @@ class RecommendViewController: UIViewController {
     
     private lazy var cycleView : RecommendCycleView = {
         let cycleView = RecommendCycleView.recommendCycleView()
-        cycleView.frame = CGRect(x: 0, y: -kCycleViewH, width: kScreenW, height: kCycleViewH)
+        cycleView.frame = CGRect(x: 0, y: -(kCycleViewH + kGameViewH), width: kScreenW, height: kCycleViewH)
+        // 设置该控件不随着父控件的拉伸而拉伸
         cycleView.autoresizingMask = [.flexibleLeftMargin]
         return cycleView
+    }()
+    
+    private lazy var gameView : RecommendGameView = {
+        let gameView = RecommendGameView.recommednGameView()
+        gameView.frame = CGRect(x: 0, y: -kGameViewH, width: kScreenW, height: kGameViewH)
+        // 设置该控件不随着父控件的拉伸而拉伸
+        gameView.autoresizingMask = [.flexibleLeftMargin]
+        return gameView
     }()
 
     override func viewDidLoad() {
@@ -73,8 +83,11 @@ extension RecommendViewController {
         // 2.将cycleView添加到UICollectionView中
         collectionView.addSubview(cycleView)
         
-        // 3.设置collectionView的内边距
-        collectionView.contentInset = UIEdgeInsets(top: kCycleViewH, left: 0, bottom: 0, right: 0)
+        // 3.将gameView添加到UIcollectionView中
+        collectionView.addSubview(gameView)
+        
+        // 4.设置collectionView的内边距
+        collectionView.contentInset = UIEdgeInsets(top: kCycleViewH + kGameViewH, left: 0, bottom: 0, right: 0)
     }
 }
 // MARK:- 请求数据
