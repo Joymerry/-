@@ -1,0 +1,6 @@
+framework module PLVMasonry {
+  umbrella header "PLVMasonry-umbrella.h"
+
+  export *
+  module * { export * }
+}

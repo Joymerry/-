@@ -23,6 +23,69 @@
 		BD532979254F901200363F05 /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD532977254F901200363F05 /* CollectionGameCell.xib */; };
 		BD5416FB2535FD9200AFBEC1 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5416FA2535FD9200AFBEC1 /* NetworkTools.swift */; };
 		BD5417012536053900AFBEC1 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5417002536053900AFBEC1 /* RecommendViewModel.swift */; };
+		BD6D2941255963900050F418 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2940255963900050F418 /* GameViewController.swift */; };
+		BD6D29BF255A1AD40050F418 /* PLVVodPlayerSkin.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6D294A255A1AD40050F418 /* PLVVodPlayerSkin.xib */; };
+		BD6D29C0255A1AD40050F418 /* PLVVodDefinitionPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D294C255A1AD40050F418 /* PLVVodDefinitionPanelView.m */; };
+		BD6D29C1255A1AD40050F418 /* PLVVodPlayTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D294F255A1AD40050F418 /* PLVVodPlayTipsView.m */; };
+		BD6D29C2255A1AD40050F418 /* PLVVodRouteLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2954255A1AD40050F418 /* PLVVodRouteLineView.m */; };
+		BD6D29C3255A1AD40050F418 /* PLVVodDanmuSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2955255A1AD40050F418 /* PLVVodDanmuSendView.m */; };
+		BD6D29C4255A1AD40050F418 /* PLVVodCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2956255A1AD40050F418 /* PLVVodCoverView.m */; };
+		BD6D29C5255A1AD40050F418 /* PLVVodFullscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D295A255A1AD40050F418 /* PLVVodFullscreenView.m */; };
+		BD6D29C6255A1AD40050F418 /* PLVVodGestureIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D295C255A1AD40050F418 /* PLVVodGestureIndicatorView.m */; };
+		BD6D29C7255A1AD40050F418 /* PLVVodPlaybackRatePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D295D255A1AD40050F418 /* PLVVodPlaybackRatePanelView.m */; };
+		BD6D29C8255A1AD40050F418 /* PLVVodNetworkTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2962255A1AD40050F418 /* PLVVodNetworkTipsView.m */; };
+		BD6D29C9255A1AD40050F418 /* PLVVodAudioCoverPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2963255A1AD40050F418 /* PLVVodAudioCoverPanelView.m */; };
+		BD6D29CA255A1AD40050F418 /* PLVVodSettingPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2964255A1AD40050F418 /* PLVVodSettingPanelView.m */; };
+		BD6D29CB255A1AD40050F418 /* PLVVodFastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2965255A1AD40050F418 /* PLVVodFastForwardView.m */; };
+		BD6D29CC255A1AD40050F418 /* PLVVodShrinkscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2966255A1AD40050F418 /* PLVVodShrinkscreenView.m */; };
+		BD6D29CD255A1AD40050F418 /* PLVVodLockScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2967255A1AD40050F418 /* PLVVodLockScreenView.m */; };
+		BD6D29CE255A1AD40050F418 /* PLVVodPlayerSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2969255A1AD40050F418 /* PLVVodPlayerSkin.m */; };
+		BD6D29CF255A1AD40050F418 /* PLVVodSkinPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D296A255A1AD40050F418 /* PLVVodSkinPlayerController.m */; };
+		BD6D29D0255A1AD40050F418 /* NSString+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D296F255A1AD40050F418 /* NSString+PLVVod.m */; };
+		BD6D29D1255A1AD40050F418 /* UIColor+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2972255A1AD40050F418 /* UIColor+PLVVod.m */; };
+		BD6D29D2255A1AD40050F418 /* UINavigationController+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2973255A1AD40050F418 /* UINavigationController+PLVVod.m */; };
+		BD6D29D3255A1AD40050F418 /* UIControl+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2974255A1AD40050F418 /* UIControl+PLVVod.m */; };
+		BD6D29D4255A1AD40050F418 /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2976255A1AD40050F418 /* UIButton+EnlargeTouchArea.m */; };
+		BD6D29D5255A1AD40050F418 /* PLVVodDanmu+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2977255A1AD40050F418 /* PLVVodDanmu+PLVVod.m */; };
+		BD6D29D6255A1AD40050F418 /* PLVVodNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2979255A1AD40050F418 /* PLVVodNetworkUtil.m */; };
+		BD6D29D7255A1AD40050F418 /* PLVVodUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D297B255A1AD40050F418 /* PLVVodUtils.m */; };
+		BD6D29D8255A1AD40050F418 /* PLVVodErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D297C255A1AD40050F418 /* PLVVodErrorUtil.m */; };
+		BD6D29D9255A1AD40050F418 /* PLVVodResources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6D297F255A1AD40050F418 /* PLVVodResources.xcassets */; };
+		BD6D29DA255A1AD40050F418 /* PLVVFloatingPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2981255A1AD40050F418 /* PLVVFloatingPlayerViewController.m */; };
+		BD6D29DB255A1AD40050F418 /* PLVVFloatingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2986255A1AD40050F418 /* PLVVFloatingWindow.m */; };
+		BD6D29DC255A1AD40050F418 /* PLVVFloatingWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2987255A1AD40050F418 /* PLVVFloatingWindowViewController.m */; };
+		BD6D29DD255A1AD40050F418 /* PLVVFloatingWindowSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2988255A1AD40050F418 /* PLVVFloatingWindowSkin.m */; };
+		BD6D29DE255A1AD40050F418 /* plv_floating_btn_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D298B255A1AD40050F418 /* plv_floating_btn_pause@2x.png */; };
+		BD6D29DF255A1AD40050F418 /* plv_floating_btn_zoom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D298C255A1AD40050F418 /* plv_floating_btn_zoom@2x.png */; };
+		BD6D29E0255A1AD40050F418 /* plv_floating_btn_zoom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D298D255A1AD40050F418 /* plv_floating_btn_zoom@3x.png */; };
+		BD6D29E1255A1AD40050F418 /* plv_floating_btn_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D298E255A1AD40050F418 /* plv_floating_btn_pause@3x.png */; };
+		BD6D29E2255A1AD40050F418 /* plv_floating_btn_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D298F255A1AD40050F418 /* plv_floating_btn_play@2x.png */; };
+		BD6D29E3255A1AD40050F418 /* plv_floating_topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2990255A1AD40050F418 /* plv_floating_topbar@2x.png */; };
+		BD6D29E4255A1AD40050F418 /* plv_floating_topbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2991255A1AD40050F418 /* plv_floating_topbar@3x.png */; };
+		BD6D29E5255A1AD40050F418 /* plv_floating_btn_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2992255A1AD40050F418 /* plv_floating_btn_play@3x.png */; };
+		BD6D29E6255A1AD40050F418 /* plv_floating_btn_exchange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2993255A1AD40050F418 /* plv_floating_btn_exchange@2x.png */; };
+		BD6D29E7255A1AD40050F418 /* plv_floating_btn_exchange@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2994255A1AD40050F418 /* plv_floating_btn_exchange@3x.png */; };
+		BD6D29E8255A1AD40050F418 /* plv_floating_btn_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2995255A1AD40050F418 /* plv_floating_btn_close@3x.png */; };
+		BD6D29E9255A1AD40050F418 /* plv_floating_btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2996255A1AD40050F418 /* plv_floating_btn_close@2x.png */; };
+		BD6D29EA255A1AD40050F418 /* PLVVodExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2998255A1AD40050F418 /* PLVVodExamViewController.m */; };
+		BD6D29EB255A1AD40050F418 /* PLVVodExamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6D2999255A1AD40050F418 /* PLVVodExamViewController.xib */; };
+		BD6D29EC255A1AD40050F418 /* PLVVodExamTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = BD6D299B255A1AD40050F418 /* PLVVodExamTestData.json */; };
+		BD6D29ED255A1AD40050F418 /* PLVVodQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D299F255A1AD40050F418 /* PLVVodQuestion.m */; };
+		BD6D29EE255A1AD40050F418 /* PLVVodQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29A0255A1AD40050F418 /* PLVVodQuestionView.m */; };
+		BD6D29EF255A1AD40050F418 /* PLVVodOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29A1255A1AD40050F418 /* PLVVodOptionCell.m */; };
+		BD6D29F0255A1AD40050F418 /* PLVVodOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6D29A2255A1AD40050F418 /* PLVVodOptionCell.xib */; };
+		BD6D29F1255A1AD40050F418 /* PLVVodExplanationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29A5255A1AD40050F418 /* PLVVodExplanationView.m */; };
+		BD6D29F2255A1AD40050F418 /* PLVPPTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29A9255A1AD40050F418 /* PLVPPTVideoViewController.m */; };
+		BD6D29F3255A1AD40050F418 /* PLVPPTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29AC255A1AD40050F418 /* PLVPPTBaseViewController.m */; };
+		BD6D29F4255A1AD40050F418 /* PLVVodPPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29AE255A1AD40050F418 /* PLVVodPPTViewController.m */; };
+		BD6D29F5255A1AD40050F418 /* PLVFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29B2255A1AD40050F418 /* PLVFloatingView.m */; };
+		BD6D29F6255A1AD40050F418 /* PLVPPTLoadFailAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29B3255A1AD40050F418 /* PLVPPTLoadFailAlertView.m */; };
+		BD6D29F7255A1AD40050F418 /* PLVPPTFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29B8255A1AD40050F418 /* PLVPPTFailView.m */; };
+		BD6D29F8255A1AD40050F418 /* PLVPPTControllerSkinView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29BA255A1AD40050F418 /* PLVPPTControllerSkinView.m */; };
+		BD6D29F9255A1AD40050F418 /* PLVPPTActionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29BB255A1AD40050F418 /* PLVPPTActionViewCell.m */; };
+		BD6D29FA255A1AD40050F418 /* PLVPPTActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29BC255A1AD40050F418 /* PLVPPTActionView.m */; };
+		BD6D29FB255A1AD40050F418 /* PLVPPTSkinProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D29BE255A1AD40050F418 /* PLVPPTSkinProgressView.m */; };
+		BD6D2A2A255A1BF00050F418 /* PLVDome.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6D2A29255A1BF00050F418 /* PLVDome.m */; };
 		BD9B175E24F6BB8500CAD446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B175D24F6BB8500CAD446 /* AppDelegate.swift */; };
 		BD9B176024F6BB8500CAD446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B175F24F6BB8500CAD446 /* SceneDelegate.swift */; };
 		BD9B176224F6BB8500CAD446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B176124F6BB8500CAD446 /* ViewController.swift */; };
@@ -97,6 +160,116 @@
 		BD532977254F901200363F05 /* CollectionGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
 		BD5416FA2535FD9200AFBEC1 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		BD5417002536053900AFBEC1 /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		BD6D2940255963900050F418 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BD6D2948255A1AD40050F418 /* PLVVodSkinPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodSkinPlayerController.h; sourceTree = "<group>"; };
+		BD6D2949255A1AD40050F418 /* PLVVodPlayerSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlayerSkin.h; sourceTree = "<group>"; };
+		BD6D294A255A1AD40050F418 /* PLVVodPlayerSkin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodPlayerSkin.xib; sourceTree = "<group>"; };
+		BD6D294C255A1AD40050F418 /* PLVVodDefinitionPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodDefinitionPanelView.m; sourceTree = "<group>"; };
+		BD6D294E255A1AD40050F418 /* PLVVodPlayTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlayTipsView.h; sourceTree = "<group>"; };
+		BD6D294F255A1AD40050F418 /* PLVVodPlayTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlayTipsView.m; sourceTree = "<group>"; };
+		BD6D2950255A1AD40050F418 /* PLVVodPlaybackRatePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlaybackRatePanelView.h; sourceTree = "<group>"; };
+		BD6D2951255A1AD40050F418 /* PLVVodGestureIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodGestureIndicatorView.h; sourceTree = "<group>"; };
+		BD6D2952255A1AD40050F418 /* PLVVodAudioCoverPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodAudioCoverPanelView.h; sourceTree = "<group>"; };
+		BD6D2953255A1AD40050F418 /* PLVVodNetworkTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodNetworkTipsView.h; sourceTree = "<group>"; };
+		BD6D2954255A1AD40050F418 /* PLVVodRouteLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodRouteLineView.m; sourceTree = "<group>"; };
+		BD6D2955255A1AD40050F418 /* PLVVodDanmuSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodDanmuSendView.m; sourceTree = "<group>"; };
+		BD6D2956255A1AD40050F418 /* PLVVodCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodCoverView.m; sourceTree = "<group>"; };
+		BD6D2957255A1AD40050F418 /* PLVVodShrinkscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodShrinkscreenView.h; sourceTree = "<group>"; };
+		BD6D2958255A1AD40050F418 /* PLVVodFastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodFastForwardView.h; sourceTree = "<group>"; };
+		BD6D2959255A1AD40050F418 /* PLVVodSettingPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodSettingPanelView.h; sourceTree = "<group>"; };
+		BD6D295A255A1AD40050F418 /* PLVVodFullscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodFullscreenView.m; sourceTree = "<group>"; };
+		BD6D295B255A1AD40050F418 /* PLVVodLockScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodLockScreenView.h; sourceTree = "<group>"; };
+		BD6D295C255A1AD40050F418 /* PLVVodGestureIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodGestureIndicatorView.m; sourceTree = "<group>"; };
+		BD6D295D255A1AD40050F418 /* PLVVodPlaybackRatePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlaybackRatePanelView.m; sourceTree = "<group>"; };
+		BD6D295E255A1AD40050F418 /* PLVVodDefinitionPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodDefinitionPanelView.h; sourceTree = "<group>"; };
+		BD6D295F255A1AD40050F418 /* PLVVodCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodCoverView.h; sourceTree = "<group>"; };
+		BD6D2960255A1AD40050F418 /* PLVVodDanmuSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodDanmuSendView.h; sourceTree = "<group>"; };
+		BD6D2961255A1AD40050F418 /* PLVVodRouteLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodRouteLineView.h; sourceTree = "<group>"; };
+		BD6D2962255A1AD40050F418 /* PLVVodNetworkTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodNetworkTipsView.m; sourceTree = "<group>"; };
+		BD6D2963255A1AD40050F418 /* PLVVodAudioCoverPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodAudioCoverPanelView.m; sourceTree = "<group>"; };
+		BD6D2964255A1AD40050F418 /* PLVVodSettingPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodSettingPanelView.m; sourceTree = "<group>"; };
+		BD6D2965255A1AD40050F418 /* PLVVodFastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodFastForwardView.m; sourceTree = "<group>"; };
+		BD6D2966255A1AD40050F418 /* PLVVodShrinkscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodShrinkscreenView.m; sourceTree = "<group>"; };
+		BD6D2967255A1AD40050F418 /* PLVVodLockScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodLockScreenView.m; sourceTree = "<group>"; };
+		BD6D2968255A1AD40050F418 /* PLVVodFullscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodFullscreenView.h; sourceTree = "<group>"; };
+		BD6D2969255A1AD40050F418 /* PLVVodPlayerSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlayerSkin.m; sourceTree = "<group>"; };
+		BD6D296A255A1AD40050F418 /* PLVVodSkinPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodSkinPlayerController.m; sourceTree = "<group>"; };
+		BD6D296C255A1AD40050F418 /* UIControl+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PLVVod.h"; sourceTree = "<group>"; };
+		BD6D296D255A1AD40050F418 /* UIColor+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PLVVod.h"; sourceTree = "<group>"; };
+		BD6D296E255A1AD40050F418 /* UINavigationController+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PLVVod.h"; sourceTree = "<group>"; };
+		BD6D296F255A1AD40050F418 /* NSString+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PLVVod.m"; sourceTree = "<group>"; };
+		BD6D2970255A1AD40050F418 /* PLVVodDanmu+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLVVodDanmu+PLVVod.h"; sourceTree = "<group>"; };
+		BD6D2971255A1AD40050F418 /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		BD6D2972255A1AD40050F418 /* UIColor+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PLVVod.m"; sourceTree = "<group>"; };
+		BD6D2973255A1AD40050F418 /* UINavigationController+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PLVVod.m"; sourceTree = "<group>"; };
+		BD6D2974255A1AD40050F418 /* UIControl+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PLVVod.m"; sourceTree = "<group>"; };
+		BD6D2975255A1AD40050F418 /* NSString+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PLVVod.h"; sourceTree = "<group>"; };
+		BD6D2976255A1AD40050F418 /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		BD6D2977255A1AD40050F418 /* PLVVodDanmu+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PLVVodDanmu+PLVVod.m"; sourceTree = "<group>"; };
+		BD6D2979255A1AD40050F418 /* PLVVodNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodNetworkUtil.m; sourceTree = "<group>"; };
+		BD6D297A255A1AD40050F418 /* PLVVodErrorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodErrorUtil.h; sourceTree = "<group>"; };
+		BD6D297B255A1AD40050F418 /* PLVVodUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodUtils.m; sourceTree = "<group>"; };
+		BD6D297C255A1AD40050F418 /* PLVVodErrorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodErrorUtil.m; sourceTree = "<group>"; };
+		BD6D297D255A1AD40050F418 /* PLVVodNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodNetworkUtil.h; sourceTree = "<group>"; };
+		BD6D297E255A1AD40050F418 /* PLVVodUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodUtils.h; sourceTree = "<group>"; };
+		BD6D297F255A1AD40050F418 /* PLVVodResources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PLVVodResources.xcassets; sourceTree = "<group>"; };
+		BD6D2981255A1AD40050F418 /* PLVVFloatingPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVFloatingPlayerViewController.m; sourceTree = "<group>"; };
+		BD6D2983255A1AD40050F418 /* PLVVFloatingWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVFloatingWindowViewController.h; sourceTree = "<group>"; };
+		BD6D2984255A1AD40050F418 /* PLVVFloatingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVFloatingWindow.h; sourceTree = "<group>"; };
+		BD6D2985255A1AD40050F418 /* PLVVFloatingWindowSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVFloatingWindowSkin.h; sourceTree = "<group>"; };
+		BD6D2986255A1AD40050F418 /* PLVVFloatingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVFloatingWindow.m; sourceTree = "<group>"; };
+		BD6D2987255A1AD40050F418 /* PLVVFloatingWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVFloatingWindowViewController.m; sourceTree = "<group>"; };
+		BD6D2988255A1AD40050F418 /* PLVVFloatingWindowSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVFloatingWindowSkin.m; sourceTree = "<group>"; };
+		BD6D2989255A1AD40050F418 /* PLVVFloatingPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVFloatingPlayerViewController.h; sourceTree = "<group>"; };
+		BD6D298B255A1AD40050F418 /* plv_floating_btn_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_pause@2x.png"; sourceTree = "<group>"; };
+		BD6D298C255A1AD40050F418 /* plv_floating_btn_zoom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_zoom@2x.png"; sourceTree = "<group>"; };
+		BD6D298D255A1AD40050F418 /* plv_floating_btn_zoom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_zoom@3x.png"; sourceTree = "<group>"; };
+		BD6D298E255A1AD40050F418 /* plv_floating_btn_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_pause@3x.png"; sourceTree = "<group>"; };
+		BD6D298F255A1AD40050F418 /* plv_floating_btn_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_play@2x.png"; sourceTree = "<group>"; };
+		BD6D2990255A1AD40050F418 /* plv_floating_topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_topbar@2x.png"; sourceTree = "<group>"; };
+		BD6D2991255A1AD40050F418 /* plv_floating_topbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_topbar@3x.png"; sourceTree = "<group>"; };
+		BD6D2992255A1AD40050F418 /* plv_floating_btn_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_play@3x.png"; sourceTree = "<group>"; };
+		BD6D2993255A1AD40050F418 /* plv_floating_btn_exchange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_exchange@2x.png"; sourceTree = "<group>"; };
+		BD6D2994255A1AD40050F418 /* plv_floating_btn_exchange@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_exchange@3x.png"; sourceTree = "<group>"; };
+		BD6D2995255A1AD40050F418 /* plv_floating_btn_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_close@3x.png"; sourceTree = "<group>"; };
+		BD6D2996255A1AD40050F418 /* plv_floating_btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plv_floating_btn_close@2x.png"; sourceTree = "<group>"; };
+		BD6D2998255A1AD40050F418 /* PLVVodExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodExamViewController.m; sourceTree = "<group>"; };
+		BD6D2999255A1AD40050F418 /* PLVVodExamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodExamViewController.xib; sourceTree = "<group>"; };
+		BD6D299A255A1AD40050F418 /* PLVVodExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodExamViewController.h; sourceTree = "<group>"; };
+		BD6D299B255A1AD40050F418 /* PLVVodExamTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PLVVodExamTestData.json; sourceTree = "<group>"; };
+		BD6D299D255A1AD40050F418 /* PLVVodQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodQuestionView.h; sourceTree = "<group>"; };
+		BD6D299E255A1AD40050F418 /* PLVVodOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodOptionCell.h; sourceTree = "<group>"; };
+		BD6D299F255A1AD40050F418 /* PLVVodQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodQuestion.m; sourceTree = "<group>"; };
+		BD6D29A0255A1AD40050F418 /* PLVVodQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodQuestionView.m; sourceTree = "<group>"; };
+		BD6D29A1255A1AD40050F418 /* PLVVodOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodOptionCell.m; sourceTree = "<group>"; };
+		BD6D29A2255A1AD40050F418 /* PLVVodOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodOptionCell.xib; sourceTree = "<group>"; };
+		BD6D29A3255A1AD40050F418 /* PLVVodQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodQuestion.h; sourceTree = "<group>"; };
+		BD6D29A5255A1AD40050F418 /* PLVVodExplanationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodExplanationView.m; sourceTree = "<group>"; };
+		BD6D29A6255A1AD40050F418 /* PLVVodExplanationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodExplanationView.h; sourceTree = "<group>"; };
+		BD6D29A9255A1AD40050F418 /* PLVPPTVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTVideoViewController.m; sourceTree = "<group>"; };
+		BD6D29AA255A1AD40050F418 /* PLVPPTBaseViewControllerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTBaseViewControllerInternal.h; sourceTree = "<group>"; };
+		BD6D29AB255A1AD40050F418 /* PLVVodPPTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPPTViewController.h; sourceTree = "<group>"; };
+		BD6D29AC255A1AD40050F418 /* PLVPPTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTBaseViewController.m; sourceTree = "<group>"; };
+		BD6D29AD255A1AD40050F418 /* PLVPPTVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTVideoViewController.h; sourceTree = "<group>"; };
+		BD6D29AE255A1AD40050F418 /* PLVVodPPTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPPTViewController.m; sourceTree = "<group>"; };
+		BD6D29AF255A1AD40050F418 /* PLVPPTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTBaseViewController.h; sourceTree = "<group>"; };
+		BD6D29B1255A1AD40050F418 /* PLVPPTFailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTFailView.h; sourceTree = "<group>"; };
+		BD6D29B2255A1AD40050F418 /* PLVFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVFloatingView.m; sourceTree = "<group>"; };
+		BD6D29B3255A1AD40050F418 /* PLVPPTLoadFailAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTLoadFailAlertView.m; sourceTree = "<group>"; };
+		BD6D29B4255A1AD40050F418 /* PLVPPTActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTActionView.h; sourceTree = "<group>"; };
+		BD6D29B5255A1AD40050F418 /* PLVPPTActionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTActionViewCell.h; sourceTree = "<group>"; };
+		BD6D29B6255A1AD40050F418 /* PLVPPTControllerSkinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTControllerSkinView.h; sourceTree = "<group>"; };
+		BD6D29B7255A1AD40050F418 /* PLVPPTSkinProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTSkinProgressView.h; sourceTree = "<group>"; };
+		BD6D29B8255A1AD40050F418 /* PLVPPTFailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTFailView.m; sourceTree = "<group>"; };
+		BD6D29B9255A1AD40050F418 /* PLVFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVFloatingView.h; sourceTree = "<group>"; };
+		BD6D29BA255A1AD40050F418 /* PLVPPTControllerSkinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTControllerSkinView.m; sourceTree = "<group>"; };
+		BD6D29BB255A1AD40050F418 /* PLVPPTActionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTActionViewCell.m; sourceTree = "<group>"; };
+		BD6D29BC255A1AD40050F418 /* PLVPPTActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTActionView.m; sourceTree = "<group>"; };
+		BD6D29BD255A1AD40050F418 /* PLVPPTLoadFailAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTLoadFailAlertView.h; sourceTree = "<group>"; };
+		BD6D29BE255A1AD40050F418 /* PLVPPTSkinProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTSkinProgressView.m; sourceTree = "<group>"; };
+		BD6D2A28255A1BF00050F418 /* PLVDome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVDome.h; sourceTree = "<group>"; };
+		BD6D2A29255A1BF00050F418 /* PLVDome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVDome.m; sourceTree = "<group>"; };
+		BD6D2A9A255A39E30050F418 /* SwiftActualCombat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftActualCombat-Bridging-Header.h"; sourceTree = "<group>"; };
 		BD9B175A24F6BB8500CAD446 /* SwiftActualCombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftActualCombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9B175D24F6BB8500CAD446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD9B175F24F6BB8500CAD446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +356,241 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		BD6D2945255A1A830050F418 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D2946255A1AD40050F418 /* PolyvOpenSourceModule */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD6D2946255A1AD40050F418 /* PolyvOpenSourceModule */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D2947255A1AD40050F418 /* Skin */,
+				BD6D296B255A1AD40050F418 /* Category */,
+				BD6D2978255A1AD40050F418 /* Util */,
+				BD6D297F255A1AD40050F418 /* PLVVodResources.xcassets */,
+				BD6D2980255A1AD40050F418 /* Floating */,
+				BD6D2997255A1AD40050F418 /* Exam */,
+				BD6D29A7255A1AD40050F418 /* PPT */,
+				BD6D2A28255A1BF00050F418 /* PLVDome.h */,
+				BD6D2A29255A1BF00050F418 /* PLVDome.m */,
+			);
+			path = PolyvOpenSourceModule;
+			sourceTree = "<group>";
+		};
+		BD6D2947255A1AD40050F418 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D2948255A1AD40050F418 /* PLVVodSkinPlayerController.h */,
+				BD6D2949255A1AD40050F418 /* PLVVodPlayerSkin.h */,
+				BD6D294A255A1AD40050F418 /* PLVVodPlayerSkin.xib */,
+				BD6D294B255A1AD40050F418 /* View */,
+				BD6D2969255A1AD40050F418 /* PLVVodPlayerSkin.m */,
+				BD6D296A255A1AD40050F418 /* PLVVodSkinPlayerController.m */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+		BD6D294B255A1AD40050F418 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D294C255A1AD40050F418 /* PLVVodDefinitionPanelView.m */,
+				BD6D294D255A1AD40050F418 /* PlayTips */,
+				BD6D2950255A1AD40050F418 /* PLVVodPlaybackRatePanelView.h */,
+				BD6D2951255A1AD40050F418 /* PLVVodGestureIndicatorView.h */,
+				BD6D2952255A1AD40050F418 /* PLVVodAudioCoverPanelView.h */,
+				BD6D2953255A1AD40050F418 /* PLVVodNetworkTipsView.h */,
+				BD6D2954255A1AD40050F418 /* PLVVodRouteLineView.m */,
+				BD6D2955255A1AD40050F418 /* PLVVodDanmuSendView.m */,
+				BD6D2956255A1AD40050F418 /* PLVVodCoverView.m */,
+				BD6D2957255A1AD40050F418 /* PLVVodShrinkscreenView.h */,
+				BD6D2958255A1AD40050F418 /* PLVVodFastForwardView.h */,
+				BD6D2959255A1AD40050F418 /* PLVVodSettingPanelView.h */,
+				BD6D295A255A1AD40050F418 /* PLVVodFullscreenView.m */,
+				BD6D295B255A1AD40050F418 /* PLVVodLockScreenView.h */,
+				BD6D295C255A1AD40050F418 /* PLVVodGestureIndicatorView.m */,
+				BD6D295D255A1AD40050F418 /* PLVVodPlaybackRatePanelView.m */,
+				BD6D295E255A1AD40050F418 /* PLVVodDefinitionPanelView.h */,
+				BD6D295F255A1AD40050F418 /* PLVVodCoverView.h */,
+				BD6D2960255A1AD40050F418 /* PLVVodDanmuSendView.h */,
+				BD6D2961255A1AD40050F418 /* PLVVodRouteLineView.h */,
+				BD6D2962255A1AD40050F418 /* PLVVodNetworkTipsView.m */,
+				BD6D2963255A1AD40050F418 /* PLVVodAudioCoverPanelView.m */,
+				BD6D2964255A1AD40050F418 /* PLVVodSettingPanelView.m */,
+				BD6D2965255A1AD40050F418 /* PLVVodFastForwardView.m */,
+				BD6D2966255A1AD40050F418 /* PLVVodShrinkscreenView.m */,
+				BD6D2967255A1AD40050F418 /* PLVVodLockScreenView.m */,
+				BD6D2968255A1AD40050F418 /* PLVVodFullscreenView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD6D294D255A1AD40050F418 /* PlayTips */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D294E255A1AD40050F418 /* PLVVodPlayTipsView.h */,
+				BD6D294F255A1AD40050F418 /* PLVVodPlayTipsView.m */,
+			);
+			path = PlayTips;
+			sourceTree = "<group>";
+		};
+		BD6D296B255A1AD40050F418 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D296C255A1AD40050F418 /* UIControl+PLVVod.h */,
+				BD6D296D255A1AD40050F418 /* UIColor+PLVVod.h */,
+				BD6D296E255A1AD40050F418 /* UINavigationController+PLVVod.h */,
+				BD6D296F255A1AD40050F418 /* NSString+PLVVod.m */,
+				BD6D2970255A1AD40050F418 /* PLVVodDanmu+PLVVod.h */,
+				BD6D2971255A1AD40050F418 /* UIButton+EnlargeTouchArea.h */,
+				BD6D2972255A1AD40050F418 /* UIColor+PLVVod.m */,
+				BD6D2973255A1AD40050F418 /* UINavigationController+PLVVod.m */,
+				BD6D2974255A1AD40050F418 /* UIControl+PLVVod.m */,
+				BD6D2975255A1AD40050F418 /* NSString+PLVVod.h */,
+				BD6D2976255A1AD40050F418 /* UIButton+EnlargeTouchArea.m */,
+				BD6D2977255A1AD40050F418 /* PLVVodDanmu+PLVVod.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BD6D2978255A1AD40050F418 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D297D255A1AD40050F418 /* PLVVodNetworkUtil.h */,
+				BD6D2979255A1AD40050F418 /* PLVVodNetworkUtil.m */,
+				BD6D297A255A1AD40050F418 /* PLVVodErrorUtil.h */,
+				BD6D297C255A1AD40050F418 /* PLVVodErrorUtil.m */,
+				BD6D297E255A1AD40050F418 /* PLVVodUtils.h */,
+				BD6D297B255A1AD40050F418 /* PLVVodUtils.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BD6D2980255A1AD40050F418 /* Floating */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D2989255A1AD40050F418 /* PLVVFloatingPlayerViewController.h */,
+				BD6D2981255A1AD40050F418 /* PLVVFloatingPlayerViewController.m */,
+				BD6D2982255A1AD40050F418 /* FloatingWindow */,
+				BD6D298A255A1AD40050F418 /* Resource */,
+			);
+			path = Floating;
+			sourceTree = "<group>";
+		};
+		BD6D2982255A1AD40050F418 /* FloatingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D2983255A1AD40050F418 /* PLVVFloatingWindowViewController.h */,
+				BD6D2984255A1AD40050F418 /* PLVVFloatingWindow.h */,
+				BD6D2985255A1AD40050F418 /* PLVVFloatingWindowSkin.h */,
+				BD6D2986255A1AD40050F418 /* PLVVFloatingWindow.m */,
+				BD6D2987255A1AD40050F418 /* PLVVFloatingWindowViewController.m */,
+				BD6D2988255A1AD40050F418 /* PLVVFloatingWindowSkin.m */,
+			);
+			path = FloatingWindow;
+			sourceTree = "<group>";
+		};
+		BD6D298A255A1AD40050F418 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D298B255A1AD40050F418 /* plv_floating_btn_pause@2x.png */,
+				BD6D298C255A1AD40050F418 /* plv_floating_btn_zoom@2x.png */,
+				BD6D298D255A1AD40050F418 /* plv_floating_btn_zoom@3x.png */,
+				BD6D298E255A1AD40050F418 /* plv_floating_btn_pause@3x.png */,
+				BD6D298F255A1AD40050F418 /* plv_floating_btn_play@2x.png */,
+				BD6D2990255A1AD40050F418 /* plv_floating_topbar@2x.png */,
+				BD6D2991255A1AD40050F418 /* plv_floating_topbar@3x.png */,
+				BD6D2992255A1AD40050F418 /* plv_floating_btn_play@3x.png */,
+				BD6D2993255A1AD40050F418 /* plv_floating_btn_exchange@2x.png */,
+				BD6D2994255A1AD40050F418 /* plv_floating_btn_exchange@3x.png */,
+				BD6D2995255A1AD40050F418 /* plv_floating_btn_close@3x.png */,
+				BD6D2996255A1AD40050F418 /* plv_floating_btn_close@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD6D2997255A1AD40050F418 /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D299A255A1AD40050F418 /* PLVVodExamViewController.h */,
+				BD6D2998255A1AD40050F418 /* PLVVodExamViewController.m */,
+				BD6D2999255A1AD40050F418 /* PLVVodExamViewController.xib */,
+				BD6D299B255A1AD40050F418 /* PLVVodExamTestData.json */,
+				BD6D299C255A1AD40050F418 /* QuestionView */,
+				BD6D29A4255A1AD40050F418 /* ExplanationView */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
+		BD6D299C255A1AD40050F418 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D299D255A1AD40050F418 /* PLVVodQuestionView.h */,
+				BD6D299E255A1AD40050F418 /* PLVVodOptionCell.h */,
+				BD6D299F255A1AD40050F418 /* PLVVodQuestion.m */,
+				BD6D29A0255A1AD40050F418 /* PLVVodQuestionView.m */,
+				BD6D29A1255A1AD40050F418 /* PLVVodOptionCell.m */,
+				BD6D29A2255A1AD40050F418 /* PLVVodOptionCell.xib */,
+				BD6D29A3255A1AD40050F418 /* PLVVodQuestion.h */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
+		BD6D29A4255A1AD40050F418 /* ExplanationView */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D29A5255A1AD40050F418 /* PLVVodExplanationView.m */,
+				BD6D29A6255A1AD40050F418 /* PLVVodExplanationView.h */,
+			);
+			path = ExplanationView;
+			sourceTree = "<group>";
+		};
+		BD6D29A7255A1AD40050F418 /* PPT */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D29A8255A1AD40050F418 /* Controller */,
+				BD6D29B0255A1AD40050F418 /* View */,
+			);
+			path = PPT;
+			sourceTree = "<group>";
+		};
+		BD6D29A8255A1AD40050F418 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D29A9255A1AD40050F418 /* PLVPPTVideoViewController.m */,
+				BD6D29AA255A1AD40050F418 /* PLVPPTBaseViewControllerInternal.h */,
+				BD6D29AB255A1AD40050F418 /* PLVVodPPTViewController.h */,
+				BD6D29AC255A1AD40050F418 /* PLVPPTBaseViewController.m */,
+				BD6D29AD255A1AD40050F418 /* PLVPPTVideoViewController.h */,
+				BD6D29AE255A1AD40050F418 /* PLVVodPPTViewController.m */,
+				BD6D29AF255A1AD40050F418 /* PLVPPTBaseViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD6D29B0255A1AD40050F418 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D29B1255A1AD40050F418 /* PLVPPTFailView.h */,
+				BD6D29B2255A1AD40050F418 /* PLVFloatingView.m */,
+				BD6D29B3255A1AD40050F418 /* PLVPPTLoadFailAlertView.m */,
+				BD6D29B4255A1AD40050F418 /* PLVPPTActionView.h */,
+				BD6D29B5255A1AD40050F418 /* PLVPPTActionViewCell.h */,
+				BD6D29B6255A1AD40050F418 /* PLVPPTControllerSkinView.h */,
+				BD6D29B7255A1AD40050F418 /* PLVPPTSkinProgressView.h */,
+				BD6D29B8255A1AD40050F418 /* PLVPPTFailView.m */,
+				BD6D29B9255A1AD40050F418 /* PLVFloatingView.h */,
+				BD6D29BA255A1AD40050F418 /* PLVPPTControllerSkinView.m */,
+				BD6D29BB255A1AD40050F418 /* PLVPPTActionViewCell.m */,
+				BD6D29BC255A1AD40050F418 /* PLVPPTActionView.m */,
+				BD6D29BD255A1AD40050F418 /* PLVPPTLoadFailAlertView.h */,
+				BD6D29BE255A1AD40050F418 /* PLVPPTSkinProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BD9B175124F6BB8500CAD446 = {
 			isa = PBXGroup;
 			children = (
@@ -216,11 +624,13 @@
 				BDA2AD4025067F7A005BCACC /* Live */,
 				BD9B179824F6BD0B00CAD446 /* Mine */,
 				BDA2AD502507E20A005BCACC /* Tools */,
+				BD6D2945255A1A830050F418 /* Resource */,
 				BD9B176324F6BB8500CAD446 /* Main.storyboard */,
 				BD9B176924F6BB8700CAD446 /* Assets.xcassets */,
 				BD9B176B24F6BB8700CAD446 /* LaunchScreen.storyboard */,
 				BD51A3382545CD9A003BC01A /* PrefixHeader.pch */,
 				BD9B176E24F6BB8700CAD446 /* Info.plist */,
+				BD6D2A9A255A39E30050F418 /* SwiftActualCombat-Bridging-Header.h */,
 			);
 			path = SwiftActualCombat;
 			sourceTree = "<group>";
@@ -278,6 +688,7 @@
 			children = (
 				BD9B179624F6BD0500CAD446 /* HomeViewController.swift */,
 				BDFBE5062523233F00C4E2D7 /* RecommendViewController.swift */,
+				BD6D2940255963900050F418 /* GameViewController.swift */,
 				BD9B179C24F6C36C00CAD446 /* VODViewController.swift */,
 			);
 			path = Controller;
@@ -500,7 +911,7 @@
 				TargetAttributes = {
 					BD9B175924F6BB8500CAD446 = {
 						CreatedOnToolsVersion = 11.6;
-						LastSwiftMigration = 1160;
+						LastSwiftMigration = 1210;
 					};
 					BD9B177224F6BB8700CAD446 = {
 						CreatedOnToolsVersion = 11.6;
@@ -537,17 +948,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D29E8255A1AD40050F418 /* plv_floating_btn_close@3x.png in Resources */,
+				BD6D29E1255A1AD40050F418 /* plv_floating_btn_pause@3x.png in Resources */,
 				BD9B176D24F6BB8700CAD446 /* LaunchScreen.storyboard in Resources */,
+				BD6D29DF255A1AD40050F418 /* plv_floating_btn_zoom@2x.png in Resources */,
 				BD9B176A24F6BB8700CAD446 /* Assets.xcassets in Resources */,
 				BD532954254873D000363F05 /* CollectionCycleCell.xib in Resources */,
 				BDAAE4B725235EDE00553A32 /* CollectionNormalCell.xib in Resources */,
 				BDA2AD48250683DA005BCACC /* NewsTableViewCell.xib in Resources */,
+				BD6D29E0255A1AD40050F418 /* plv_floating_btn_zoom@3x.png in Resources */,
+				BD6D29E4255A1AD40050F418 /* plv_floating_topbar@3x.png in Resources */,
+				BD6D29DE255A1AD40050F418 /* plv_floating_btn_pause@2x.png in Resources */,
 				BD53294825482D7E00363F05 /* RecommendCycleView.xib in Resources */,
+				BD6D29E7255A1AD40050F418 /* plv_floating_btn_exchange@3x.png in Resources */,
+				BD6D29F0255A1AD40050F418 /* PLVVodOptionCell.xib in Resources */,
+				BD6D29E2255A1AD40050F418 /* plv_floating_btn_play@2x.png in Resources */,
 				BDAAE4BE252363A900553A32 /* CollectionPrettyCell.xib in Resources */,
+				BD6D29E3255A1AD40050F418 /* plv_floating_topbar@2x.png in Resources */,
+				BD6D29E9255A1AD40050F418 /* plv_floating_btn_close@2x.png in Resources */,
+				BD6D29E6255A1AD40050F418 /* plv_floating_btn_exchange@2x.png in Resources */,
 				BD9B176524F6BB8500CAD446 /* Main.storyboard in Resources */,
+				BD6D29E5255A1AD40050F418 /* plv_floating_btn_play@3x.png in Resources */,
+				BD6D29EB255A1AD40050F418 /* PLVVodExamViewController.xib in Resources */,
 				BDAAE4AD25235B0900553A32 /* CollectionHeaderView.xib in Resources */,
 				BD532979254F901200363F05 /* CollectionGameCell.xib in Resources */,
+				BD6D29BF255A1AD40050F418 /* PLVVodPlayerSkin.xib in Resources */,
+				BD6D29EC255A1AD40050F418 /* PLVVodExamTestData.json in Resources */,
 				BD532972254F0DD700363F05 /* RecommendGameView.xib in Resources */,
+				BD6D29D9255A1AD40050F418 /* PLVVodResources.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,36 +1103,82 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D29D1255A1AD40050F418 /* UIColor+PLVVod.m in Sources */,
+				BD6D29EF255A1AD40050F418 /* PLVVodOptionCell.m in Sources */,
+				BD6D29CB255A1AD40050F418 /* PLVVodFastForwardView.m in Sources */,
 				BD53294325482D1C00363F05 /* RecommendCycleView.swift in Sources */,
+				BD6D29CE255A1AD40050F418 /* PLVVodPlayerSkin.m in Sources */,
+				BD6D29C4255A1AD40050F418 /* PLVVodCoverView.m in Sources */,
+				BD6D29C7255A1AD40050F418 /* PLVVodPlaybackRatePanelView.m in Sources */,
 				BDA2AD862510EEC4005BCACC /* PageTitleView.swift in Sources */,
 				BDAAE4BD252363A900553A32 /* CollectionPrettyCell.swift in Sources */,
+				BD6D29FB255A1AD40050F418 /* PLVPPTSkinProgressView.m in Sources */,
 				BD53296D254F0DB300363F05 /* RecommendGameView.swift in Sources */,
+				BD6D29C9255A1AD40050F418 /* PLVVodAudioCoverPanelView.m in Sources */,
 				BD53294D25486DD400363F05 /* CycleModel.swift in Sources */,
+				BD6D29D0255A1AD40050F418 /* NSString+PLVVod.m in Sources */,
+				BD6D29C5255A1AD40050F418 /* PLVVodFullscreenView.m in Sources */,
+				BD6D29C2255A1AD40050F418 /* PLVVodRouteLineView.m in Sources */,
+				BD6D29C0255A1AD40050F418 /* PLVVodDefinitionPanelView.m in Sources */,
 				BDFBE5072523233F00C4E2D7 /* RecommendViewController.swift in Sources */,
 				BD037819251ACF8A002DCE59 /* UIColor-Extension.swift in Sources */,
+				BD6D2A2A255A1BF00050F418 /* PLVDome.m in Sources */,
 				BD9B176224F6BB8500CAD446 /* ViewController.swift in Sources */,
+				BD6D29ED255A1AD40050F418 /* PLVVodQuestion.m in Sources */,
 				BDA2AD882510F15B005BCACC /* Common.swift in Sources */,
 				BD532953254873D000363F05 /* CollectionCycleCell.swift in Sources */,
+				BD6D29D7255A1AD40050F418 /* PLVVodUtils.m in Sources */,
+				BD6D29F7255A1AD40050F418 /* PLVPPTFailView.m in Sources */,
 				BD0377F7251A2F41002DCE59 /* PageContentView.swift in Sources */,
+				BD6D29CA255A1AD40050F418 /* PLVVodSettingPanelView.m in Sources */,
+				BD6D29D3255A1AD40050F418 /* UIControl+PLVVod.m in Sources */,
 				BDE964E4253F2E8200B2356B /* AnchorGroup.swift in Sources */,
 				BD9B175E24F6BB8500CAD446 /* AppDelegate.swift in Sources */,
 				BDA2AD532507E25D005BCACC /* UIBarButtonItem-Extension.swift in Sources */,
+				BD6D29DB255A1AD40050F418 /* PLVVFloatingWindow.m in Sources */,
 				BDA2AD47250683DA005BCACC /* NewsTableViewCell.swift in Sources */,
+				BD6D29C1255A1AD40050F418 /* PLVVodPlayTipsView.m in Sources */,
+				BD6D29CD255A1AD40050F418 /* PLVVodLockScreenView.m in Sources */,
 				BDAAE4AC25235B0900553A32 /* CollectionHeaderView.swift in Sources */,
+				BD6D29F9255A1AD40050F418 /* PLVPPTActionViewCell.m in Sources */,
 				BD51A3422545D748003BC01A /* CollectionBaseCell.swift in Sources */,
 				BD9B179D24F6C36C00CAD446 /* VODViewController.swift in Sources */,
 				BDE964DF253EFAEA00B2356B /* NSDate-Extension.swift in Sources */,
 				BD5416FB2535FD9200AFBEC1 /* NetworkTools.swift in Sources */,
+				BD6D29C8255A1AD40050F418 /* PLVVodNetworkTipsView.m in Sources */,
 				BD5417012536053900AFBEC1 /* RecommendViewModel.swift in Sources */,
 				BDE964E9253F327500B2356B /* AnchorModel.swift in Sources */,
+				BD6D29D4255A1AD40050F418 /* UIButton+EnlargeTouchArea.m in Sources */,
+				BD6D29D8255A1AD40050F418 /* PLVVodErrorUtil.m in Sources */,
+				BD6D29DA255A1AD40050F418 /* PLVVFloatingPlayerViewController.m in Sources */,
+				BD6D29F2255A1AD40050F418 /* PLVPPTVideoViewController.m in Sources */,
+				BD6D2941255963900050F418 /* GameViewController.swift in Sources */,
 				BD9B176024F6BB8500CAD446 /* SceneDelegate.swift in Sources */,
 				BD532978254F901200363F05 /* CollectionGameCell.swift in Sources */,
 				BD9B179B24F6BD2500CAD446 /* MineViewController.swift in Sources */,
+				BD6D29F3255A1AD40050F418 /* PLVPPTBaseViewController.m in Sources */,
+				BD6D29FA255A1AD40050F418 /* PLVPPTActionView.m in Sources */,
+				BD6D29DC255A1AD40050F418 /* PLVVFloatingWindowViewController.m in Sources */,
+				BD6D29D2255A1AD40050F418 /* UINavigationController+PLVVod.m in Sources */,
+				BD6D29CC255A1AD40050F418 /* PLVVodShrinkscreenView.m in Sources */,
 				BDA3F655250281DF00C96549 /* BaseViewController.swift in Sources */,
+				BD6D29F8255A1AD40050F418 /* PLVPPTControllerSkinView.m in Sources */,
+				BD6D29EE255A1AD40050F418 /* PLVVodQuestionView.m in Sources */,
 				BD9B179324F6BCE700CAD446 /* MainViewController.swift in Sources */,
+				BD6D29C3255A1AD40050F418 /* PLVVodDanmuSendView.m in Sources */,
+				BD6D29DD255A1AD40050F418 /* PLVVFloatingWindowSkin.m in Sources */,
+				BD6D29F4255A1AD40050F418 /* PLVVodPPTViewController.m in Sources */,
+				BD6D29D5255A1AD40050F418 /* PLVVodDanmu+PLVVod.m in Sources */,
 				BDA2AD4325067FA4005BCACC /* LiveViewController.swift in Sources */,
+				BD6D29D6255A1AD40050F418 /* PLVVodNetworkUtil.m in Sources */,
 				BDAAE4B625235EDE00553A32 /* CollectionNormalCell.swift in Sources */,
+				BD6D29F6255A1AD40050F418 /* PLVPPTLoadFailAlertView.m in Sources */,
 				BD9B179724F6BD0500CAD446 /* HomeViewController.swift in Sources */,
+				BD6D29C6255A1AD40050F418 /* PLVVodGestureIndicatorView.m in Sources */,
+				BD6D29F5255A1AD40050F418 /* PLVFloatingView.m in Sources */,
+				BD6D29CF255A1AD40050F418 /* PLVVodSkinPlayerController.m in Sources */,
+				BD6D29EA255A1AD40050F418 /* PLVVodExamViewController.m in Sources */,
+				BD6D29F1255A1AD40050F418 /* PLVVodExplanationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,7 +1357,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MMF25AJJ86;
+				GCC_PREFIX_HEADER = "/Users/wangjunjiedemacmini/Desktop/仿斗鱼直播/SwiftActualCombat/PrefixHeader.pch";
 				INFOPLIST_FILE = SwiftActualCombat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -892,7 +1368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wangjunjie.SwiftActualCombat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangjunjiedemacmini/Desktop/仿斗鱼直播/SwiftActualCombat/SwiftActualCombat-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -907,7 +1383,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MMF25AJJ86;
+				GCC_PREFIX_HEADER = "/Users/wangjunjiedemacmini/Desktop/仿斗鱼直播/SwiftActualCombat/PrefixHeader.pch";
 				INFOPLIST_FILE = SwiftActualCombat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -916,7 +1394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wangjunjie.SwiftActualCombat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/wangjunjiedemacmini/Desktop/仿斗鱼直播/SwiftActualCombat/SwiftActualCombat-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

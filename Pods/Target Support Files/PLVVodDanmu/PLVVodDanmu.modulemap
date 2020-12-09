@@ -1,0 +1,6 @@
+framework module PLVVodDanmu {
+  umbrella header "PLVVodDanmu-umbrella.h"
+
+  export *
+  module * { export * }
+}

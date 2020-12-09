@@ -8,6 +8,12 @@ target 'SwiftActualCombat' do
   use_frameworks!
   pod 'VODUpload'
   pod 'AliPlayerSDK_iOS'
+  pod 'PolyvVodSDK' #保利威视频
+  pod 'PLVVodDanmu'
+  pod 'PLVSubtitle'
+  pod 'PLVMasonry'
+  pod 'YYWebImage'
+  pod 'FDStackView'
   pod 'Alamofire' #网络请求
   pod 'Moya' #网络请求框架
   pod 'SnapKit' #类似于OC中的masonry的自动布局框架

@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 import AliyunPlayer
 
+private let PLVApplySettingKey = "apply_preference";
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -29,6 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let encrptyFilePath = Bundle.main.path(forResource: "encryptedApp", ofType: "dat")
         AliPrivateService.initKey(encrptyFilePath)
+        
+        
         return true
     }
 

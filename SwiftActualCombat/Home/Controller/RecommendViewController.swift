@@ -73,6 +73,13 @@ class RecommendViewController: UIViewController {
         // 网络请求
         initData()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.tabBar.isHidden = false
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        
+    }
 }
 //MARK: - 设置UI界面内容
 extension RecommendViewController {
@@ -133,6 +140,11 @@ extension RecommendViewController : UICollectionViewDelegate,UICollectionViewDel
             return CGSize(width: kItemW, height: kPrettyItemH)
         }
         return CGSize(width: kItemW, height: kNormalItemH)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = VODViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 //MARK: - UICollectionViewDataSource
